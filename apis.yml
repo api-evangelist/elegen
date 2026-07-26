@@ -1,7 +1,20 @@
 aid: elegen
 name: Elegen
-description: Elegen is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Elegen is a synthetic biology company founded in 2017 and headquartered in
+  Menlo Park, California that manufactures high-accuracy synthetic DNA through
+  its proprietary cell-free ENFINIA platform. Rather than relying on traditional
+  cell-based cloning, ENFINIA combines microfluidics, artificial intelligence,
+  and robotics to produce long, clonal-quality, high-complexity DNA at speed and
+  low cost. The ENFINIA product line includes Linear DNA up to 7 kb delivered in
+  6-8 business days, Plasmid DNA up to 15 kb, and IVT Ready DNA with encoded
+  poly(A) tails for mRNA workflows, each NGS-verified to 99.999% per-base
+  accuracy. Elegen serves researchers and therapeutics developers across mRNA
+  vaccines, cell and gene therapy, CRISPR genome editing, and protein
+  expression. Customers submit and order sequences through the online ENFINIA
+  ordering portal; Elegen does not currently publish a public developer API.
+  The company is backed by a16z Bio + Health, KdT Ventures, 8VC, Digitalis
+  Ventures, Agilent, and others, and raised a $35M Series B in 2024.
 url: https://raw.githubusercontent.com/api-evangelist/elegen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +22,78 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://elegenbio.com/wp-content/uploads/2025/08/elegen-mark-200x200-1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Synthetic Biology
+- DNA Synthesis
+- Biotechnology
+- Genomics
+- Gene Synthesis
+- Life Sciences
+- mRNA
+- Cell and Gene Therapy
+- Synthetic DNA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/elegen-domain-security.yml
+- type: Website
+  url: https://elegenbio.com/
+- type: Portal
+  name: ENFINIA Ordering Portal
+  url: https://ecommerce.elegen.com/
+- type: Documentation
+  name: Elegen Support & Product Documentation
+  url: https://support.elegenbio.com/
+- type: Support
+  name: Elegen Help Center
+  url: https://support.elegenbio.com/
+- type: Blog
+  name: Elegen News
+  url: https://elegenbio.com/news/
+- type: GitHubOrganization
+  name: ElegenBio on GitHub
+  url: https://github.com/ElegenBio
+- type: Pricing
+  name: ENFINIA GEN II Pricing
+  url: https://elegenbio.com/technology/gen-ii-pricing-announcement/
+- type: SignUp
+  name: ENFINIA Portal Sign Up / Login
+  url: https://ecommerce.elegen.com/auth/login
+- type: PrivacyPolicy
+  url: https://elegenbio.com/privacy-policy/
+- type: TermsOfService
+  name: Terms and Conditions of Sale
+  url: https://support.elegenbio.com/en/kb/terms-and-conditions-of-sale
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elegenbio/
+- type: Twitter
+  url: https://x.com/ElegenBio
+- type: LLMsTxt
+  name: Elegen llms.txt
+  url: llms/elegen-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
