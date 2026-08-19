@@ -34,7 +34,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://elegenbio.com/wp-content/uploads/2025/08/elegen-mark-200x200-1.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
