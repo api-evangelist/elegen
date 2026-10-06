@@ -47,7 +47,7 @@ accessModel:
 image: https://elegenbio.com/wp-content/uploads/2025/08/elegen-mark-200x200-1.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Synthetic Biology
@@ -61,6 +61,8 @@ tags:
 - Synthetic DNA
 apis: []
 common:
+- url: https://elegenbio.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/elegen-domain-security.yml
 - type: Website
